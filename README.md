@@ -25,9 +25,10 @@ Resources
 
 ## Assignments
 
-- 19 November 2018 Lab Test 15%
-- 3 December 2018 Assignment 1 submission 15%
-- Assignment 3 - 20% - Week 10
+- 25 November 2019 Week 11 - Lab Test 15%
+- 2 December 2019 Assignment 1 submission 15%
+- Assignment 2 - TBC
+- Assignment 3 - 20% - Week 10 Semester 2
 - End of Year lab test - 30% - TBC 
 
 ### Semester 1
