@@ -38,6 +38,8 @@ Resources
 - Practice drawing
 - Learn how to use operators with variables
 
+# Part 1
+
 Here is a youtube video of 4 sketches you can program today:
 
 [![YouTube](http://img.youtube.com/vi/kPOFqXsLLeo/0.jpg)](https://www.youtube.com/watch?v=kPOFqXsLLeo)
@@ -51,6 +53,29 @@ In your solution use the following processing functions:
 - noStroke
 
 And the mouseX and mouseY varibles. You can also use the + - * / operators
+
+# Part 2
+
+[![YouTube](http://img.youtube.com/vi/uvPVGiU-bn4/0.jpg)](https://www.youtube.com/watch?v=uvPVGiU-bn4)
+
+What is happening:
+
+- The ground takes up half the window size
+- The spaceship is 100 pixels wide and is *centered* around the mouse position.
+- The person starts at the right side of the screen and moved from right to left
+
+Use variables wherever practical in your sketch and calculate positions and sizes relative to these variables.
+
+Bonus!
+
+There are few things you can try (but you will probably have to read ahead and figure out how the if statement works)
+
+- Come up with a more beautiful looking spaceship and person
+- Change the colours of everything
+- Make a car that drives from left to right
+- When the person reaches the left side of the screen, he should switch direction
+- Make the lights on the spaceship flash different colours
+
 
 
 # Week 1
