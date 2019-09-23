@@ -33,6 +33,26 @@ Resources
 
 ### Semester 1
 
+# Week 2
+### Learning Outcomes
+- Practice drawing
+- Learn how to use operators with variables
+
+Here is a youtube video of 4 sketches you can program today:
+
+[![YouTube](http://img.youtube.com/vi/kPOFqXsLLeo/0.jpg)](https://www.youtube.com/watch?v=kPOFqXsLLeo)
+
+In your solution use the following processing functions:
+- fill
+- rect
+- ellipse
+- background
+- stroke
+- noStroke
+
+And the mouseX and mouseY varibles. You can also use the + - * / operators
+
+
 # Week 1
 
 ## Lecture
