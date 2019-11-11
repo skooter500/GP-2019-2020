@@ -23,7 +23,7 @@ In your christmas card you should use:
 - Loops
 - Functions
 - Arrays
-- Any other cool stuff you have taught yourself in P5 
+- Any other cool stuff you have taught yourself in Processing 
 
 Marking scheme:
 
