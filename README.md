@@ -33,6 +33,167 @@ Resources
 
 ### Semester 1 
 
+# Week 9 - Arrays
+
+[![YouTube](http://img.youtube.com/vi/5tSBbWySCC0/0.jpg)](https://www.youtube.com/watch?v=5tSBbWySCC0)
+
+## Lab
+### Learning outcomes
+- Learn how to allocate arrays
+- Learn how to store values in arrays
+- Practice iterating arrays
+
+Here is the rainfall data recorded at the Dublin Airport over 12 months of 2010:
+
+| Month | Amount in mm |
+|-------|--------------|
+| Jan | 45 |
+| Feb | 37 |
+| March | 55 |
+| April | 27 |
+| May | 38 |
+| June | 50 |
+| July | 79 |
+| August | 48 |
+| September | 104 |
+| October | 31 |
+| November | 100 |
+| December | 58 |
+
+Create a Processing sketch and do the following:
+
+- Allocate two arrays for storing the month names and the rainfall data
+- Calculate the average rainfall for that year
+- Calculate the month with the highest rainfall
+- Calculate the month with the lowest rainfall
+
+Now see if you can write code to generate the following graphs of the rainfall data:
+
+- A bar chart:
+
+  ![Sketch](images/p11.png)
+
+- A trend line:
+
+  ![Sketch](images/p12.png)
+
+Advanced:
+
+Try and draw a pie chart!
+
+![Sketch](images/p25.png)
+
+Hint! for the bar chart, it might be useful to allocate a third array to hold the colours. You an use random colours so that every month has a different colour.
+
+# Week 8 - Loops 2
+
+## Lecture - More loops
+
+## Lab
+### Learning Outcomes
+- Practice generating lots of different shapes with loops in processing
+- Be creative and make something beautiful in code
+
+Draw the following shapes. Use variables and loops in your solutions!
+
+I'ts best to spend some time thinking about the variables and how they are changing before writing code:
+
+These require ONE loop:
+
+![Sketch](images/p21.png)
+
+This shape draws lines from the sides that all meet in the middle. This can be done using one loop, but is better with two:
+
+![Sketch](images/p19.png)
+
+This sketch always draws 10 equally sized circles across the screen. This should work no matter what you set the screen size to. You should also declare a variable to hold the number of circles to draw so that if you change this number, the sketch should still work:
+
+![Sketch](images/p18.png)
+
+This sketch places circles around the outside of a bigger circle to make a flower pattern. Once you figure this out, you can modify it to do something cool with colours:
+
+![Sketch](images/p20.png)
+
+This sketch prints the numbers of the clock around in a circle:
+
+![Sketch](images/p22.png)
+
+This sketch requires you to put one loop inside another and also use a boolean variable, though there are other ways to do this:
+
+![Sketch](images/p23.png)
+
+This is what it looks like when all the above code is in one sketch:
+
+![Sketch](images/p24.png)
+
+Try and draw this using ONE for loop:
+
+![Sketch](images/p27.png)
+
+Write a sketch that can draw regular polygons like squares, pentagons, octogons etc:
+
+![Sketch](images/p10.png)
+
+Write a sketch that can draw stars like these:
+
+![Sketch](images/p29.png)
+
+# Week 7 - Review week
+
+# Week 6 - Loops 1
+
+## Lab
+### Learning Outcomes
+- Practice generating lots of different shapes with loops in processing
+- Be creative and make something beautiful in code
+
+Draw the following shapes. Use variables and loops in your solutions!
+
+I'ts best to spend some time thinking about the variables and how they are changing before writing code:
+
+These require ONE loop:
+
+![Sketch](images/p21.png)
+
+This shape draws lines from the sides that all meet in the middle. This can be done using one loop, but is better with two:
+
+![Sketch](images/p19.png)
+
+This sketch always draws 10 equally sized circles across the screen. This should work no matter what you set the screen size to. You should also declare a variable to hold the number of circles to draw so that if you change this number, the sketch should still work:
+
+![Sketch](images/p18.png)
+
+This sketch places circles around the outside of a bigger circle to make a flower pattern. Once you figure this out, you can modify it to do something cool with colours:
+
+![Sketch](images/p20.png)
+
+This sketch prints the numbers of the clock around in a circle:
+
+![Sketch](images/p22.png)
+
+This sketch requires you to put one loop inside another and also use a boolean variable, though there are other ways to do this:
+
+![Sketch](images/p23.png)
+
+This is what it looks like when all the above code is in one sketch:
+
+![Sketch](images/p24.png)
+
+Try and draw this using ONE for loop:
+
+![Sketch](images/p27.png)
+
+Write a sketch that can draw regular polygons like squares, pentagons, octogons etc:
+
+![Sketch](images/p10.png)
+
+Write a sketch that can draw stars like these:
+
+![Sketch](images/p29.png)
+
+# Week 5 - Bugzap
+
+# Week 4 - The IF statement
 
 # Week 3 - Using variables and trigonometric functions
 - [Trigonometry problem set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
