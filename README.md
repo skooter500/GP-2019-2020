@@ -33,6 +33,10 @@ Resources
 
 ### Semester 1 
 
+# Week 11 - 
+
+# Week 10 - Game of Life
+
 # Week 9 - Arrays
 
 [![YouTube](http://img.youtube.com/vi/5tSBbWySCC0/0.jpg)](https://www.youtube.com/watch?v=5tSBbWySCC0)
