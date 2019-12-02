@@ -39,9 +39,13 @@ Instructions:
 - Create a new blank Processing sketch and name it DXXXXXXYOUR_NAME. Replace DXXXXXX with your own student number and YOUR_NAME with your name
 - Save your sketch regularly! Like every 5 minutes or so.
 - You can use the [Processing reference](https://processing.org/reference/), but no other resources such as Google, Facebook etc and no collaboration!
-- When you are done, go to http://classroom.google.com and sign up with the following code: okbrtfr. You may need to login with your TU Dublin Student email address. You will see an assignment called Game Programming Lab Test 1 2019. Upload your correctly named .pde file here! Please ask if you need any help submitting your work or if you would like me to check your submission. You can also email me your submission at bryan.duggan@tudublin.ie with a subject of "Game Programming Lab Test 1" and I suggest you email your submission to yourself as a backup.
+- When you are done, go to http://classroom.google.com and sign up with the following code: okbrtfr. 
+- You may need to login with your TU Dublin Student email address. You will see an assignment called Game Programming Lab Test 1 2019. 
+- Upload your correctly named .pde file here! 
+- Please ask if you need any help submitting your work or if you would like me to check your submission. 
+- You can also email me your submission at bryan.duggan@tudublin.ie with a subject of "Game Programming Lab Test 1" and I suggest you email your submission to yourself as a backup.
 
-This is the sketch you will be making today:
+This is a video of the sketch you will be making today (click the image to see the video):
 
 [![YouTube](http://img.youtube.com/vi/rQkRlW1GSPU/0.jpg)](https://www.youtube.com/watch?v=rQkRlW1GSPU)
 
