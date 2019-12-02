@@ -33,7 +33,36 @@ Resources
 
 ### Semester 1 
 
-# Week 11 - 
+# Week 12 - Lab Test
+
+Instructions:
+- Create a new blank Processing sketch and name it DXXXXXXYOUR_NAME. Replace DXXXXXX with your own student number and YOUR_NAME with your name
+- Save your sketch regularly! Like every 5 minutes or so.
+- You can use the [Processing reference](https://processing.org/reference/), but no other resources such as Google, Facebook etc and no collaboration!
+- When you are done, go to http://classroom.google.com and sign up with the following code: okbrtfr. You may need to login with your TU Dublin Student email address. You will see an assignment called Game Programming Lab Test 1 2019. Upload your correctly named .pde file here! Please ask if you need any help submitting your work or if you would like me to check your submission. You can also email me your submission at bryan.duggan@tudublin.ie with a subject of "Game Programming Lab Test 1" and I suggest you email your submission to yourself as a backup.
+
+This is the sketch you will be making today:
+
+[![YouTube](http://img.youtube.com/vi/rQkRlW1GSPU/0.jpg)](https://www.youtube.com/watch?v=rQkRlW1GSPU)
+
+What is happening:
+
+Pizzas spawn off screen and move towards the pizza oven on the right. When a pizza is in the oven, the power light should change from green to red and the count of the number of pizzas cooked increases by one.
+Notice also that raw pizzas are coloured white and cooked pizzas are coloured brown (210,180,140). 
+
+Marking Scheme:
+
+| Feature | Marks |
+|---------|-------|
+| Drawing & cooking the pizza | 30 marks |
+| Drawing the oven | 20 marks |
+| Pizza movement | 20 marks |
+| Oven Power | 15 marks |
+| Counting pizzas | 15 marks |
+
+To get full marks in the test, you should use variables, the if statement, loops and functions in your solution. 
+
+# Week 11 - Working on your assignments
 
 # Week 10 - Game of Life
 
