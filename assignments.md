@@ -11,7 +11,7 @@
 
 Create a game in Processing inspired by the classic Atari Game Air Sea Battle (also known as Target Fun) first released in 1977. Here is a gameplay video:
 
-https://www.youtube.com/watch?v=NJKMUNTChTg
+[![Video](http://img.youtube.com/vi/NJKMUNTChTg/0.jpg)](http://www.youtube.com/watch?v=NJKMUNTChTg)
 
 What is happening:
 
@@ -21,13 +21,13 @@ There are two turrets, each controlled by a different player. Players can aim th
 
 There are 27 different variations of the basic game. Try them out in the emulator and read the [wikipedia page](https://en.wikipedia.org/wiki/Air-Sea_Battle) for more information.
 
-Marking scheme:
+## Marking scheme:
 
 | Gameplay Features | Love | Learning |
 |------------|---------|----------|
 |40%         | 40%     | 20%      |
 
-Rubric
+## Rubric:
 
 | Grade | Description |
 |-------|-------------|
