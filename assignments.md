@@ -6,6 +6,37 @@
 - Assignment 1 - (Christmas card) - 15%
 - Assignment 2 - (Game you make over Christmas) - 15%
 - Assignment 3 - (Semester 2 assignment) - 20%
+
+# Assignment 2
+
+Create a game in Processing inspired by the classic Atari Game Air Sea Battle (also known as Target Fun) first released in 1977. Here is a gameplay video:
+
+https://www.youtube.com/watch?v=NJKMUNTChTg
+
+What is happening:
+
+There are two turrets, each controlled by a different player. Players can aim the turrets by moving the joystick up and down. There are three angles that turrets can be set to. Players fire at the airplanes and helicopters that move across the screen and the first player to reach the score is the winner of the game. Players can only fire one bullet at a time. 
+
+[Play the game in the browser here!](http://www.free80sarcade.com/2600_Target_Fun.php). Player one uses arrow keys and space to fire. Player 2 uses TG and Q to fire.
+
+There are 27 different variations of the basic game. Try them out in the emulator and read the [wikipedia page](https://en.wikipedia.org/wiki/Air-Sea_Battle) for more information.
+
+Marking scheme:
+
+| Gameplay Features | Love | Learning |
+|------------|---------|----------|
+|40%         | 40%     | 20%      |
+
+Rubric
+
+| Grade | Description |
+|-------|-------------|
+| First | 2 players with aiming, multiple enemies, several gameplay modes, sound effects, several advanced features of Processing that you taught yourself such as classes. Lots of fun to play. Lots of love |
+| 2.1 | 2 players, maybe no aiming, only one gameplay mode, maybe only one enemy at a time, sound effects. Kinda fun for a short while.  Some love |
+| 2.2 | One player, maybe no aiming, only one gameplay mode, one enemy at a time. A bit boring. A small bit of love |
+| Pass | One player, no aiming, bugs. Not much love | 
+
+
 # Assignment 1
 
 Create an animated Christmas card in Processing. You must make the Christmas card for someone and give it to that person. 
