@@ -23,8 +23,6 @@ void setup()
   minim = new Minim(this);
   ap = minim.loadFile("heroplanet.mp3", frameSize);
 
-  //ab = minim.getLineIn(Minim.MONO, frameSize, 44100, 16).left;
-
   ab = ap.left;
   ap.cue(0);
   ap.play();
@@ -33,8 +31,6 @@ void setup()
 
   bands = new float[(int) log2(frameSize)];
   smoothedBands = new float[bands.length];
-
-
   colorMode(HSB);
 }
 
@@ -59,6 +55,8 @@ void calculateFrequencyBands() {
   }
 }
 
+float rot = 0;
+
 void draw()
 {
   background(0);
@@ -72,28 +70,32 @@ void draw()
 
   fft.window(FFT.HAMMING);
   fft.forward(ab);
-
-  float boxW = width / (float) fft.specSize();
-  noStroke();
-  int maxIndex = 0;
-  for (int i = 0; i < fft.specSize(); i ++)
-  {
-    fill(map(i, 0, fft.specSize(), 0, 255), 255, 255);
-    rect(map(i, 0, fft.specSize(), 0, width), 0, boxW, fft.getBand(i) * 50);
-
-    if (fft.getBand(i) > fft.getBand(maxIndex))
-    {
-      maxIndex = i;
-    }
-  }
   calculateFrequencyBands();
-  boxW = width / (float) bands.length;
+  float boxW = width / (float) bands.length;
+  float radius = 200;
+  
+  rot += average / 8.0f;
+  
+  strokeWeight(2);
+  pushMatrix();
+  camera(0, -200, 500, 0, 0, 0, 0, 1, 0);
+  rotateY(rot);
   for(int i = 0 ; i < bands.length ; i ++)
   {
-     fill(map(i, 0, bands.length, 0, 255), 255, 255);
-     rect(map(i, 0, bands.length, 0, width), height, boxW, - smoothedBands[i]);
-  }
-
-  textSize(20);
-  text("Frequency: " + fft.indexToFreq(maxIndex), 100, 200);
+     noFill();
+     stroke(map(i, 0, bands.length, 0, 255), 255, 255);
+     
+     float theta = map(i, 0, bands.length, 0, TWO_PI);
+     
+     float x = sin(theta) * radius;
+     float z = - cos(theta) * radius;
+     
+     float h = smoothedBands[i] * 0.5f;
+     pushMatrix();
+     translate(x, -h / 2, z);
+     rotateY(theta);     
+     box(50, h, 50);
+     popMatrix();     
+  } 
+  popMatrix();
 }
