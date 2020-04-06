@@ -53,12 +53,28 @@ void draw()
   fft.window(FFT.HAMMING);
   fft.forward(ai.left);
   
+  int maxIndex = 0;
   for(int i = 0 ; i < fft.specSize() ; i ++)
   {
     stroke((i / (float) ai.bufferSize()) * 255, 255, 255);    
     println(fft.getBand(i));
     line(i, 0, i, fft.getBand(i) * 10);
+    if (fft.getBand(i) > fft.getBand(maxIndex))
+    {
+      maxIndex = i;
+    }
   }
+  
+  float freq = fft.indexToFreq(maxIndex);
+  
+  textSize(20);
+  fill(255);
+  text(freq, 100, 100);
+  
+  float binWidth = 44100 / 1024;
+  
+  text(maxIndex * binWidth, 100, 200);
+  
   
   /*
   for(int i = 0; i < fft.specSize(); i++)

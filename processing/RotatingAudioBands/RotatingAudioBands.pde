@@ -18,8 +18,8 @@ float log2(float f) {
 
 void setup()
 {
-  size(800, 800, P3D);
-  //fullScreen(P3D, SPAN);
+  //size(800, 800, P3D);
+  fullScreen(P3D, SPAN);
   minim = new Minim(this);
   ap = minim.loadFile("heroplanet.mp3", frameSize);
 
@@ -57,6 +57,19 @@ void calculateFrequencyBands() {
 
 float rot = 0;
 
+boolean drop = false;
+
+void keyPressed()
+{
+  if (key == ' ')
+  {
+    rot1 = 0;
+    drop = ! drop;
+  }
+}
+
+float rot1 = 0;
+
 void draw()
 {
   background(0);
@@ -73,29 +86,39 @@ void draw()
   calculateFrequencyBands();
   float boxW = width / (float) bands.length;
   float radius = 200;
-  
+
   rot += average / 8.0f;
-  
+
   strokeWeight(2);
   pushMatrix();
-  camera(0, -200, 500, 0, 0, 0, 0, 1, 0);
+  camera(0, -500, 500, 0, 0, 0, 0, 1, 0);
   rotateY(rot);
-  for(int i = 0 ; i < bands.length ; i ++)
+
+  int num = 1;
+  if (drop)
   {
-     noFill();
-     stroke(map(i, 0, bands.length, 0, 255), 255, 255);
-     
-     float theta = map(i, 0, bands.length, 0, TWO_PI);
-     
-     float x = sin(theta) * radius;
-     float z = - cos(theta) * radius;
-     
-     float h = smoothedBands[i] * 0.5f;
-     pushMatrix();
-     translate(x, -h / 2, z);
-     rotateY(theta);     
-     box(50, h, 50);
-     popMatrix();     
-  } 
+    //num = 10;
+    rotateX(rot1);  
+  }
+  
+  rot1 += 0.01f;
+
+  for (int i = 0; i < bands.length; i ++)
+  {
+      noFill();
+      stroke(map(i, 0, bands.length, 0, 255), 255, 255);
+
+      float theta = map(i, 0, bands.length, 0, TWO_PI);
+
+      float x = sin(theta) * radius;  
+      float z = cos(theta) * radius;
+
+      float h = smoothedBands[i] * 0.5f;
+      pushMatrix();
+      translate(x, -h / 2, z);
+      rotateY(theta);     
+      box(50, h, 50);
+      popMatrix();
+    }
   popMatrix();
 }
