@@ -12,16 +12,17 @@
 - Project teams chosen by Week 6
 - Final project submission & demo Week 13
 
-For this assignment you can do a team project with a team of up to 3 people. You can choose your own teams. You can have less than 3 people and you can also do an individual assignment if you prefer. It would be great if you could manage your code through a public git repository and you can use either Processing or Unity. The theme of the assignment is:
+For this assignment you can do a team project with a team of up to 3 people. You can choose your own teams. You can have less than 3 people and you can also do an individual assignment if you prefer. It would be great if you could manage your code through a public git repository. he theme of the assignment is:
 
 "Something beautiful to enjoy while listening to music."
 
-I will need you to make a youtube video demonstrating your assignment and write a document in markdown format with the following sections:
+I will need you to make a youtube video demonstrating your assignment and write a document with the following sections:
 
 - What your assignmenmt does
 - What the controls are
 - How to make it run
 - A list of the stuff you are most proud of. This will help me to grade the assignments.
+- What each team member did
 
 Your assigmment can be a game or just a visual art piece. You can make your assignment respond to whatever music is playing or it can be something inspired by a particular piece of music. I expect you to have to do self directed learning on the project and come up with ideas and code that we haven't done in the class. Check out these assignments from 2 years ago for inspiration:  
 
