@@ -9,9 +9,8 @@ Resources
 * [Games Fleadh](http://www.gamesfleadh.ie/)
 
 ## Past Exams
-- [End of year Lab Test 2019]()
-- [Supplemental Lab Test 2019]()
-- [Semester 1 lab test 2019]()
+- [End of year Lab Test 2019](https://github.com/skooter500/GP-LabTest2-2019)
+- [Supplemental Lab Test 2019](https://github.com/skooter500/gp2019-august-lab-test)
 - [Supplemental Lab Test 2018](https://github.com/skooter500/GP-Autumn-Lab-Test-2018)
 - [Lab Test 1 2016](https://github.com/skooter500/GP_Lab_Test_1)
 - [Supplemental lab test 2 2016](https://github.com/skooter500/DT508-Lab-Test-Supplemental-2016)
