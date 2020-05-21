@@ -30,6 +30,39 @@ Resources
 - Assignment 3 - 20% - Week 10 Semester 2
 - End of Year lab test - 30% - TBC 
 
+### End of year Lab test
+
+# Games Programming Lab Test 2 2020
+
+## Instructions
+
+This is a video of what you will be making today for the lab test:
+
+[![YouTube](http://img.youtube.com/vi/yL6v7XNdGcE/0.jpg)](https://youtu.be/yL6v7XNdGcE)
+
+What is happening:
+
+There are 100 stars drawn in the top half of the screen. They are drawn as crosses. They have randomly assigned colours.
+
+The colours on the lines that meet in the centre span the HSB colour space.
+
+There are two "spaceships" that start in the centre of the screen and move towards the sides. When each ship reaches the side of the screen, it changes direction and comes back.
+
+To get full marks, you should use loops, arrays, the if statement and a class in your solution.
+
+Create a new blank Processing sketch and name it with your student number and name like C122345_Bryan_Duggan.
+
+Submit your solution via Google classroom before midnight 22 May
+
+Marking scheme:
+
+| Description | Marks |
+|-------------|-------|
+| Drawing the stars | 20 marks | 
+| Drawing the coloured lines | 20 marks |
+| Class to draw the ships | 30 marks |
+| Any extra cool stuff can think of | 30 marks |
+
 ### Semester 1 
 
 # Week 12 - Lab Test
